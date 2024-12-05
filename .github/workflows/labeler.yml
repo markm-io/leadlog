@@ -9,6 +9,9 @@ on:
 jobs:
   labeler:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
     steps:
       - name: Check out the repository
         uses: actions/checkout@v4
@@ -17,7 +20,3 @@ jobs:
         uses: crazy-max/ghaction-github-labeler@v4.0.0
         with:
           skip-delete: true
-
-permissions:
-  statuses: write
-  checks: write
