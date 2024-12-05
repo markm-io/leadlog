@@ -1,0 +1,16 @@
+{
+  "_checkout": "2022.6.3",
+  "_output_dir": "/Users/markm/PycharmProjects",
+  "_repo_dir": "/Users/markm/.cookiecutters/cookiecutter-hypermodern-python",
+  "_template": "gh:cjolowicz/cookiecutter-hypermodern-python",
+  "author": "Mark Moreno",
+  "copyright_year": "2024",
+  "development_status": "Development Status :: 1 - Planning",
+  "email": "mark@securehst.com",
+  "friendly_name": "LeadLog",
+  "github_user": "markm-io",
+  "license": "Apache-2.0",
+  "package_name": "leadlog",
+  "project_name": "leadlog",
+  "version": "0.1.0"
+}
