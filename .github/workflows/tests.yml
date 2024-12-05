@@ -137,7 +137,9 @@ jobs:
       - name: Download coverage data
         uses: actions/download-artifact@v4
         with:
-          name: ccoverage-data-${{ matrix.os }}-${{ matrix.python }}-${{ matrix.session }}
+          name: coverage-data
+          pattern: coverage-data-*
+          merge-multiple: true
 
       - name: Combine coverage data and display human readable report
         run: |
