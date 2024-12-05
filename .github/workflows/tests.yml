@@ -148,3 +148,7 @@ jobs:
 
       - name: Upload coverage report
         uses: codecov/codecov-action@v3.1.0
+
+permissions:
+  statuses: write
+  checks: write
