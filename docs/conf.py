@@ -1,4 +1,5 @@
 """Sphinx configuration."""
+
 project = "LeadLog"
 author = "Mark Moreno"
 copyright = "2024, Mark Moreno"
